@@ -1,0 +1,105 @@
+body {
+    box-sizing: border-box;
+    background-color: #ecf6f3;
+    width: 858px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+/* Headings */
+
+h1 {
+    font-size: 2.5em;
+    color: #316e66;
+} 
+
+h3 {
+    font-size: 1.7em;
+    color: #316e66;
+} 
+
+h4 {
+    color: #5a4535 !important;
+}
+
+/* Header IMG */
+
+#logoImg {
+    background-image: url(./images/logo.jpg);
+    width: 118px;
+    height: 112px;
+    margin-bottom: 20px;
+}
+
+/* Navigation menu */
+
+#logoImg > a {
+    width: 100%;
+}
+
+#navMenu > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #958175;
+    margin-bottom: 20px;
+}
+
+#navMenu li {
+    float: left;
+}
+
+#navMenu li  {
+    display: block;
+    width: 122px;
+    height: 49px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}   
+
+#navMenu li > a {
+    vertical-align: middle;
+}
+
+#navMenu li a:hover {
+    background-color: #6d6157;
+}
+
+#navMenu li a:active {
+    background-color: #e4e1bd;
+    color: 745745;
+}
+
+/* Central img */
+#centralImg {
+    background-image: url(./images/music.jpg);
+    width: 858px;
+    height: 428px;
+}
+
+#lifeMusic p {
+    color: #5a4535;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#news {
+    width: 565px;
+    padding-left: 10px;
+    color: #5a4535;
+}
+
+#news a {
+    text-decoration: none;
+    color: #5a4535;
+
+}
